@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:flutter_lab/post_model.dart';
+import 'package:flutter_lab/api/post_model.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {

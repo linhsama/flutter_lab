@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lab/api_service.dart';
-import 'package:flutter_lab/post_model.dart';
+import 'package:flutter_lab/api/api_service.dart';
+import 'package:flutter_lab/api/post_model.dart';
 
 class PostScreen extends StatefulWidget {
   const PostScreen({super.key});

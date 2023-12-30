@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cool_alert/cool_alert.dart';
-import 'package:flutter_lab/db_helper.dart';
-import 'package:flutter_lab/task_model.dart';
+import 'package:flutter_lab/sqlite/db_helper.dart';
+import 'package:flutter_lab/sqlite/task_model.dart';
 
 class TaskScreen extends StatefulWidget {
   const TaskScreen({super.key});

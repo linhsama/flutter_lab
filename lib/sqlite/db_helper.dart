@@ -1,11 +1,10 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:flutter_lab/task_model.dart';
+import 'package:flutter_lab/sqlite/task_model.dart';
 
 class DatabaseHelper {
   late Database _database;
   bool _isDatabaseInitialized = false;
-  // Khởi tạo hoặc mở kết nối đến cơ sở dữ liệu SQLite
   Future<void> initializeDatabase() async {
     if (!_isDatabaseInitialized) {
       _database = await openDatabase(

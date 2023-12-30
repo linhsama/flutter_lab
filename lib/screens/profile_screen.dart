@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_lab/home_screen.dart';
+import 'package:flutter_lab/screens/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:flutter_lab/login_screen.dart';
+import 'package:flutter_lab/screens/login_screen.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
