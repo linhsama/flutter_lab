@@ -1,0 +1,39 @@
+name: flutter_lab
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0-264.0.dev <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  animated_text_kit: ^4.2.2
+  shared_preferences: ^2.2.2
+  http: ^1.1.2
+  path: ^1.9.0
+  sqflite: ^2.3.0
+  cool_alert: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: Dancing
+      fonts:
+        - asset: assets/fonts/DancingScript-Regular.ttf
